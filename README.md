@@ -10,6 +10,29 @@ Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
 
 ---
 
+# Coming Soon: Multi-WebServer Hosting for aaPanel
+
+Customize dedicated web services for each website.
+
+## 🚀 Feature Preview - Coming Soon
+
+### New Architecture Overview
+We are developing a **Multi-WebServer Hosting** architecture that will allow you to specify the WebEngine for each website individually, providing greater flexibility and control.
+
+---
+
+### Configuration Interface Preview
+
+![Configuration pop-up window](https://www.aapanel.com/static/images/popup.png)
+
+---
+
+### Web Service Management
+
+![Web service management interface](https://www.aapanel.com/static/images/WebsiteSetup.png)
+
+---
+
 ## 🚀 Latest Update: v7.0.24
 
 - **Fixed:** "Domain not found" prompt during SSL renewal
