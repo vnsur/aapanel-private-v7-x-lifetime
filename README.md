@@ -7,8 +7,12 @@
 
 # Connect Community
 Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
-
 ---
+
+
+# Instructions: [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
+---
+
 
 # Coming Soon: Multi-WebServer Hosting for aaPanel
 
@@ -33,10 +37,22 @@ We are developing a **Multi-WebServer Hosting** architecture that will allow you
 
 ---
 
-## 🚀 Latest Update: v7.0.24
+## 🚀 Latest Update: v7.0.25
 
-- **Fixed:** "Domain not found" prompt during SSL renewal
-- **Fixed:** Various issues in Files module
+- Added: aaPanel account support for Google login  
+- Added: Theme mode automatically follows browser settings  
+- Added: Support for scheduled backups of MongoDB, Redis, and PgSQL in Cron  
+- Added: Reverse proxy support for URL Rewrite (Nginx only)  
+- Optimized: Performance of newly installed PHP 8 series improved by 10-30%  
+- Optimized: Display of the operation menu in the Files module  
+- Optimized: Dark theme compatibility for some interfaces  
+- Optimized: Updated Ukrainian language (Thanks to aaP_valdeuscorp)  
+- Fixed: Abnormal issues with PgSQL when adding/deleting databases and users  
+- Fixed: Issue where terminal cannot be used normally when key and password are empty in some cases
+- Fixed: Issue where QR code login fails on some mobile devices when using Dark theme  
+- Fixed: Issue where Files module returns to default directory in some cases  
+- Fixed: Issue where data backup and migration progress stops  
+- Fixed: Issue where Cron automatic backup fails to delete old backups
 
 ---
 
@@ -94,6 +110,22 @@ sudo rm -rf /www/server/panel
 ---
 
 # 📝 Changelog
+
+## v7.0.25
+- Added: aaPanel account support for Google login  
+- Added: Theme mode automatically follows browser settings  
+- Added: Support for scheduled backups of MongoDB, Redis, and PgSQL in Cron  
+- Added: Reverse proxy support for URL Rewrite (Nginx only)  
+- Optimized: Performance of newly installed PHP 8 series improved by 10-30%  
+- Optimized: Display of the operation menu in the Files module  
+- Optimized: Dark theme compatibility for some interfaces  
+- Optimized: Updated Ukrainian language (Thanks to aaP_valdeuscorp)  
+- Fixed: Abnormal issues with PgSQL when adding/deleting databases and users  
+- Fixed: Issue where terminal cannot be used normally when key and password are empty in some cases
+- Fixed: Issue where QR code login fails on some mobile devices when using Dark theme  
+- Fixed: Issue where Files module returns to default directory in some cases  
+- Fixed: Issue where data backup and migration progress stops  
+- Fixed: Issue where Cron automatic backup fails to delete old backups
 
 ## v7.0.24
 - Fixed: "Domain not found" prompt during SSL renewal
