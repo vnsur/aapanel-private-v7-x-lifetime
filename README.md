@@ -10,7 +10,8 @@ Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
 ---
 
 
-# Instructions: [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
+# Instructions
+Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 ---
 
 
