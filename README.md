@@ -12,6 +12,12 @@ Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
 # Instructions
 Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 ---
+## 🛸 Beta  Update: v7.52.0
+- Added: Multi-WebServer Hosting (allows you to set a specific WebServer for individual websites)
+- Added: Adminer to support visual management of MongoDB and PgSQL  
+- Added: lsphp management integration in Openlitespeed management  
+- Optimized: When Multi-WebServer Hosting is enabled, the default environment for "Add WordPress" in WP Toolkit is Nginx + Openlitespeed  
+- Fixed: Issue where Vulnerability Scan in WP Toolkit reports errors in certain cases
 
 ## 🚀 Latest Update: v7.0.26
 
