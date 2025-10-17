@@ -7,17 +7,23 @@
 
 # Connect Community
 Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
+Get a 21-day trial of aaPanel Pro now
 ---
 
 # Instructions
 Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 ---
-## 🛸 Beta  Update: v7.52.0
-- Added: Multi-WebServer Hosting (allows you to set a specific WebServer for individual websites)
-- Added: Adminer to support visual management of MongoDB and PgSQL  
-- Added: lsphp management integration in Openlitespeed management  
-- Optimized: When Multi-WebServer Hosting is enabled, the default environment for "Add WordPress" in WP Toolkit is Nginx + Openlitespeed  
-- Fixed: Issue where Vulnerability Scan in WP Toolkit reports errors in certain cases
+## 🛸 Beta  Update: v7.53.0
+1. Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache  
+2. Added: Files module - new features including Copy Path, Open in New Window, and rename when overwriting  
+3. Added: Free Requests feature supports enabling/disabling in Settings - Site Monitor
+4. Added: Support for batch deletion in Security - Firewall  
+5. Optimized: Italian and Turkish language translations  
+6. Optimized: Unified display of SSL application and renewal interfaces  
+7. Fixed: Issue where hidden files become directories when restoring site files backed up via Cron
+8. Fixed: Problem with PgSQL automatic backup failure  
+9. Fixed: Known issues in the Files module
+
 
 ## 🚀 Latest Update: v7.0.26
 
