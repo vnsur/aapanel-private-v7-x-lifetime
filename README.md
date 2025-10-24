@@ -13,16 +13,15 @@ Get a 21-day trial of aaPanel Pro now
 # Instructions
 Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 ---
-## 🛸 Beta  Update: v7.53.0
-1. Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache  
-2. Added: Files module - new features including Copy Path, Open in New Window, and rename when overwriting  
-3. Added: Free Requests feature supports enabling/disabling in Settings - Site Monitor
-4. Added: Support for batch deletion in Security - Firewall  
-5. Optimized: Italian and Turkish language translations  
-6. Optimized: Unified display of SSL application and renewal interfaces  
-7. Fixed: Issue where hidden files become directories when restoring site files backed up via Cron
-8. Fixed: Problem with PgSQL automatic backup failure  
-9. Fixed: Known issues in the Files module
+## 🛸 Beta  Update: v7.54.0
+
+📝 *Changelog:*
+1. Added: Simplified Chinese language
+2. Added: Server restart alert prompt on the Home
+3. Optimized: Improved success rate for enabling Multi-WebServer Hosting  
+4. Optimized: Performance issues with SSL deployment in Multi-WebServer Hosting  
+5. Fixed: Problem with SSL application failure for Node projects
+6. Fixed: Files module incorrectly applies permission changes to subdirectories when not selected
 
 
 ## 🚀 Latest Update: v7.0.26
