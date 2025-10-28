@@ -24,22 +24,27 @@ Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 6. Fixed: Files module incorrectly applies permission changes to subdirectories when not selected
 
 
-## 🚀 Latest Update: v7.0.26
+## 🚀 Latest Update: v7.0.27
 
-- Added: aaPanel account support for Google login  
-- Added: Theme mode automatically follows browser settings  
-- Added: Support for scheduled backups of MongoDB, Redis, and PgSQL in Cron  
-- Added: Reverse proxy support for URL Rewrite (Nginx only)  
-- Optimized: Performance of newly installed PHP 8 series improved by 10-30%  
-- Optimized: Display of the operation menu in the Files module  
-- Optimized: Dark theme compatibility for some interfaces  
-- Optimized: Updated Ukrainian language (Thanks to aaP_valdeuscorp)  
-- Fixed: Abnormal issues with PgSQL when adding/deleting databases and users  
-- Fixed: Issue where terminal cannot be used normally when key and password are empty in some cases
-- Fixed: Issue where QR code login fails on some mobile devices when using Dark theme  
-- Fixed: Issue where Files module returns to default directory in some cases  
-- Fixed: Issue where data backup and migration progress stops  
-- Fixed: Issue where Cron automatic backup fails to delete old backups
+1. Added: Multi-WebServer Hosting (allows setting a specific WebServer for individual websites)
+2. Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache
+3. Added: Files module - new features including Copy Path, Open in New Window, and rename when overwriting
+4. Added: Adminer to support visual management of MongoDB and PgSQL
+5. Added: lsphp management integration in Openlitespeed management
+6. Added: Support for batch deletion in Security - Firewall
+7. Added: Server restart alert prompt on the Home page  
+8. Added: Simplified Chinese language
+9. Added: Account supports WHMCS seamless processing of orders, payments, and activations
+10. Added: aaPanel app is newly launched (currently available for Android)
+11. Optimized: Multi-WebServer Hosting enabled, default environment for "Add WordPress" in WP Toolkit is Nginx + Openlitespeed
+12. Optimized: Docker module Overview interface and speed
+13. Optimized: Italian and Turkish language translations
+14. Optimized: Unified display of SSL application and renewal interfaces
+15. Fixed: Issue where hidden files become directories when restoring site files backed up via Cron
+16. Fixed: Issue where Vulnerability Scan in WP Toolkit reports errors in certain cases
+17. Fixed: Problem with SSL application failure for Node projects
+18. Fixed: Problem with PgSQL automatic backup failure
+19. Fixed: Known issues in the Files module
 
 ---
 
@@ -47,7 +52,7 @@ Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 
 Customize dedicated web services for each website.
 
-## 🚀 Feature Preview - Coming Soon
+## 🚀 Feature Preview
 
 ### New Architecture Overview
 We are developing a **Multi-WebServer Hosting** architecture that will allow you to specify the WebEngine for each website individually, providing greater flexibility and control.
@@ -121,6 +126,27 @@ sudo rm -rf /www/server/panel
 ---
 
 # 📝 Changelog
+
+## v7.0.27
+- Added: Multi-WebServer Hosting (allows setting a specific WebServer for individual websites)
+- Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache
+- Added: Files module - new features including Copy Path, Open in New Window, and rename when overwriting
+- Added: Adminer to support visual management of MongoDB and PgSQL
+- Added: lsphp management integration in Openlitespeed management
+- Added: Support for batch deletion in Security - Firewall
+- Added: Server restart alert prompt on the Home page  
+- Added: Simplified Chinese language
+- Added: Account supports WHMCS seamless processing of orders, payments, and activations
+- Added: aaPanel app is newly launched (currently available for Android)
+- Optimized: Multi-WebServer Hosting enabled, default environment for "Add WordPress" in WP Toolkit is Nginx + Openlitespeed
+- Optimized: Docker module Overview interface and speed
+- Optimized: Italian and Turkish language translations
+- Optimized: Unified display of SSL application and renewal interfaces
+- Fixed: Issue where hidden files become directories when restoring site files backed up via Cron
+- Fixed: Issue where Vulnerability Scan in WP Toolkit reports errors in certain cases
+- Fixed: Problem with SSL application failure for Node projects
+- Fixed: Problem with PgSQL automatic backup failure
+- Fixed: Known issues in the Files module
 
 ## v7.0.26
 - Added: aaPanel account support for Google login  
