@@ -13,44 +13,39 @@ Get a 21-day trial of aaPanel Pro now
 # Instructions
 Instructions [https://sum.vn/aapanelprivate](https://sum.vn/aapanelprivate)
 ---
-## 🛸 Beta  Update: v7.54.0
+## 🛸 Beta  Update: v7.57.0
 
 📝 *Changelog:*
-1. Added: Simplified Chinese language
-2. Added: Server restart alert prompt on the Home
-3. Optimized: Improved success rate for enabling Multi-WebServer Hosting  
-4. Optimized: Performance issues with SSL deployment in Multi-WebServer Hosting  
-5. Fixed: Problem with SSL application failure for Node projects
-6. Fixed: Files module incorrectly applies permission changes to subdirectories when not selected
+1. Optimized: MySQL database backup/import interface - supports background operation, displays progress, and shows logs
+2. Fixed: Issue where websites are inaccessible on Apple devices under certain Multi-WebServer Hosting scenarios
+3. Fixed: Issue where websites become unavailable due to case sensitivity when adding Webmail to Mail Server
+4. Fixed: Problem with errors when Nginx WAF reads the configuration for the first time
+5. Fixed: Problem with incorrect Hotlink Protection detection
+6. Fixed: Errors caused by missing judgments in some code segments
 
 
-## 🚀 Latest Update: v7.0.27
+## 🚀 Latest Update: v7.0.28
 
-1. Added: Multi-WebServer Hosting (allows setting a specific WebServer for individual websites)
-2. Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache
-3. Added: Files module - new features including Copy Path, Open in New Window, and rename when overwriting
-4. Added: Adminer to support visual management of MongoDB and PgSQL
-5. Added: lsphp management integration in Openlitespeed management
-6. Added: Support for batch deletion in Security - Firewall
-7. Added: Server restart alert prompt on the Home page  
-8. Added: Simplified Chinese language
-9. Added: Account supports WHMCS seamless processing of orders, payments, and activations
-10. Added: aaPanel app is newly launched (currently available for Android)
-11. Optimized: Multi-WebServer Hosting enabled, default environment for "Add WordPress" in WP Toolkit is Nginx + Openlitespeed
-12. Optimized: Docker module Overview interface and speed
-13. Optimized: Italian and Turkish language translations
-14. Optimized: Unified display of SSL application and renewal interfaces
-15. Fixed: Issue where hidden files become directories when restoring site files backed up via Cron
-16. Fixed: Issue where Vulnerability Scan in WP Toolkit reports errors in certain cases
-17. Fixed: Problem with SSL application failure for Node projects
-18. Fixed: Problem with PgSQL automatic backup failure
-19. Fixed: Known issues in the Files module
+1. Added: Self-hosted DNS server in Domains - Domain Management
+2. Added: Create sites from Git repositories in Website - PHP Project
+3. Added: Git Manager currently only supports newly created Git sites
+4. Added: WP Sets supports manual upload of plugins/themes in WP Toolkit
+5. Added: Support for batch setting of PHP versions in WP Toolkit
+6. Added: Site icon fetch toggle in Settings - Auto-fetch favicon
+7. Added: aaPanel app is newly launched on the Apple App Store
+8. Added: Docker - Settings supports configuring Log Rotation, One-Click Install Dir, and iptables
+9. Optimized: MySQL database backup/import interface - supports background operation, displays progress, and shows logs
+10. Optimized: Logs - Website logs support viewing WP Toolkit and Proxy Project logs
+11. Fixed: Issue where websites are inaccessible on Apple devices under certain Multi-WebServer Hosting scenarios
+12. Fixed: Issue where websites become unavailable due to case sensitivity when adding Webmail to Mail Server
+13. Fixed: Problem with errors when Nginx WAF reads the configuration for the first time
+14. Fixed: Initialization and pagination storage issues on the SSH logs page
+15. Fixed: Problem with incorrect Hotlink Protection detection
+16. Fixed: Issue where Docker Repository cannot be added
+17. Fixed: Shortcut key conflict in the Files module
+18. Fixed: Errors caused by missing judgments in some code segments
 
 ---
-
-# Coming Soon: Multi-WebServer Hosting for aaPanel
-
-Customize dedicated web services for each website.
 
 ## 🚀 Feature Preview
 
@@ -127,6 +122,26 @@ sudo rm -rf /www/server/panel
 
 # 📝 Changelog
 
+## v7.0.28
+- Added: Self-hosted DNS server in Domains - Domain Management
+- Added: Create sites from Git repositories in Website - PHP Project
+- Added: Git Manager currently only supports newly created Git sites
+- Added: WP Sets supports manual upload of plugins/themes in WP Toolkit
+- Added: Support for batch setting of PHP versions in WP Toolkit
+- Added: Site icon fetch toggle in Settings - Auto-fetch favicon
+- Added: aaPanel app is newly launched on the Apple App Store
+- Added: Docker - Settings supports configuring Log Rotation, One-Click Install Dir, and iptables
+- Optimized: MySQL database backup/import interface - supports background operation, displays progress, and shows logs
+- Optimized: Logs - Website logs support viewing WP Toolkit and Proxy Project logs
+- Fixed: Issue where websites are inaccessible on Apple devices under certain Multi-WebServer Hosting scenarios
+- Fixed: Issue where websites become unavailable due to case sensitivity when adding Webmail to Mail Server
+- Fixed: Problem with errors when Nginx WAF reads the configuration for the first time
+- Fixed: Initialization and pagination storage issues on the SSH logs page
+- Fixed: Problem with incorrect Hotlink Protection detection
+- Fixed: Issue where Docker Repository cannot be added
+- Fixed: Shortcut key conflict in the Files module
+- Fixed: Errors caused by missing judgments in some code segments
+    
 ## v7.0.27
 - Added: Multi-WebServer Hosting (allows setting a specific WebServer for individual websites)
 - Added: Under Multi-WebServer Hosting, WP Toolkit supports enabling cache for Apache
